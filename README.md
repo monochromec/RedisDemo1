@@ -5,7 +5,6 @@ The choice of Jedis as the main Java client library was made for the following r
 - I wanted something compact which can easily be installed on a mobile device with limited resources in terms of CPU power and memory,
 - Standard build environment integration is a must, so availablity in the standard Maven repositories is a prerequisite (including Android Studio!),
 - The API should simple and easy to learn, so I favoured Jedis instead of more powerful but complex APIs such as Lettuce.
-I created this sample code to provide a shorter learning curve than the most of the examples you can find on the Internet.
 
 Caveat: This code comes as it is. No effort has been made to finish and polish this code base for production deployment (for example, error checking and logging is virtually non-existent). Also commenting could be vastly improved. Proceed at your own risk :-) and enjoy learning and playing with it.
 
