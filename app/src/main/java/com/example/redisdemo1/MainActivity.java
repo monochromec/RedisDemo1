@@ -252,7 +252,7 @@ public final class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("  Latest Fashion Updates");
 
-        mDB = setupDB("192.168.2.31");
+        mDB = setupDB("ServerAddress");
 
         // Enter infinite background loop waiting for doc update via lock in doInBackground in WaitForValues
         WaitForValues task = new WaitForValues();
