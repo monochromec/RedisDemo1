@@ -24,6 +24,7 @@ Prerequisites for running this demo which worked for me:
 6. Modify the Redis server IP address in the member function "setupDB" to reflect your Redis server instance, providing an authentication as required by removing the comments in front of the auth member function invocation in setupDB. 
     
 Some hints:
+
     • As usual, logcat or similar mechanisms (IDE-based or not) on the Android side provide you with a view from the client side. 
     
 If you want to help out by making the core more robust (error handling, comments, etc. come to mind :-) ), feel free to send me PRs with your improvements! More than happy to incorporate them if they check out.
