@@ -97,14 +97,12 @@ public final class MainActivity extends AppCompatActivity {
         public void onPSubcribe(String pat, int subs) {
             super.onPSubscribe(pat, subs);
         }
-        @Override
         public void onPUnsubcribe(String pat, int subs) {
-            super.onPUnsubscribe((pat, subs);
+            super.onPUnsubscribe(pat, subs);
 
         }
-        @Override
         public void onUnsubcribe(String chan, int subs) {
-            super.onUnsubscribe((chan, subs);
+            super.onUnsubscribe(chan, subs);
         }
     }
 
@@ -162,6 +160,7 @@ public final class MainActivity extends AppCompatActivity {
         Jedis client = null;
         try {
             client = new Jedis(url);
+            // client.auth("");
         } catch (RuntimeException e) {
             e.printStackTrace();
         }
